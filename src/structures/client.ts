@@ -89,6 +89,11 @@ interface Activity {
 	timestamps?: ActivityTimestamps;
 
 	/**
+ 	 * Internal - Undocumented
+   	 */
+	flags?: number;
+	
+	/**
 	 * Assets to display on the player's profile
 	 */
 	assets?: ActivityAssets;
@@ -155,6 +160,9 @@ export class Client extends EventEmitter {
 			if (activity.timestamps?.end)
 				cleaned.timestamps.end = activity.timestamps.end;
 		}
+
+		if (activity.flags)
+			cleaned.flags = activity.flags;
 
 		if (activity.assets && Object.entries(activity.assets).length > 0) {
 			cleaned.assets = {};
