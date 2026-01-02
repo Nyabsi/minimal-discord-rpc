@@ -1,5 +1,9 @@
 # Minimal Discord RPC
 
+A fork of the original `minimal-discord-rpc` package as it was taken down.
+
+No support will be provided.
+
 ## Usage
 
 ```js

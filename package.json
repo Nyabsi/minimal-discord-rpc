@@ -1,17 +1,17 @@
 {
-	"name": "minimal-discord-rpc",
-	"version": "1.0.2",
+	"name": "@nyabsi/minimal-discord-rpc",
+	"version": "1.0.0",
 	"description": "A minimal Discord RPC client",
-	"author": "ItsPi3141",
+	"author": "ItsPi3141 (Original Author) & Nyabsi",
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/itspi3141/minimal-discord-rpc.git"
+		"url": "git+https://github.com/nyabsi/minimal-discord-rpc.git"
 	},
 	"bugs": {
-		"url": "https://github.com/itspi3141/minimal-discord-rpc/issues"
+		"url": "https://github.com/nyabsi/minimal-discord-rpc/issues"
 	},
-	"homepage": "https://github.com/itspi3141/minimal-discord-rpc",
+	"homepage": "https://github.com/nyabsi/minimal-discord-rpc",
 	"keywords": ["discord", "rpc", "discord-rpc"],
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
