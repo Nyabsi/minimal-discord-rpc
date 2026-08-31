@@ -19,16 +19,29 @@ client.on("ready", () => {
  client.setActivity({
   type: ActivityType.Playing,
   details: "Activity details",
+  details_url: "https://example.com/details",
   state: "Acivity state",
+  state_url: "https://example.com/state",
   timestamps: {
    start: Date.now(),
   },
   assets: {
    large_image: "large_image",
    large_text: "Large image!",
+   large_url: "https://example.com/large",
    small_image: "small_image",
    small_text: "Small image!",
+   small_url: "https://example.com/small",
   },
+  party: {
+   id: "party-id",
+   size: [1, 4],
+  },
+  secrets: {
+   join: "join-secret",
+  },
+  instance: true,
+  buttons: [{ label: "Website", url: "https://example.com" }],
  });
 });
 client.on("close", (reason) => {
