@@ -1,6 +1,6 @@
 {
 	"name": "@nyabsi/minimal-discord-rpc",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "A minimal Discord RPC client",
 	"author": "ItsPi3141 (Original Author) & Nyabsi",
 	"license": "GPL-3.0",
